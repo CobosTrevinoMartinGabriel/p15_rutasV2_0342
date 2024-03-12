@@ -14,11 +14,13 @@ class Pantalla2_0342 extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          color: Color(0xff750079),
+          color: Color(0xff0043a8),
           width: double.infinity,
           height: 125,
           child: Card(
-            color: Color(0xff884caf),
+            shadowColor: Colors.black87,
+            elevation: 10,
+            color: Color(0xff2f2f50),
             margin: EdgeInsets.all(15),
             child: Padding(
               padding: EdgeInsets.all(22),
@@ -27,7 +29,7 @@ class Pantalla2_0342 extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 32,
                     fontStyle: FontStyle.italic,
-                    color: Color(0xffd169f0)),
+                    color: Color(0xffbdebff)),
               ),
             ),
           ),
