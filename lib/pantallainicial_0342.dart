@@ -11,8 +11,8 @@ class PantallaInicial0342 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla inicial Cobos 0342"),
-        backgroundColor: Colors.amberAccent,
+        title: Text("Card container 0342"),
+        backgroundColor: Color(0xff7a6000),
       ),
       body: Center(
         child: Column(
